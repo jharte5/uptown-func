@@ -30,7 +30,7 @@ function modifyAnything(str, func) {
 }
 
 function twoFuncs(func1, func2) {
-
+  return func2(func1())
 }
 
 function twoValues() {
