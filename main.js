@@ -33,10 +33,12 @@ function twoFuncs(func1, func2) {
   return func2(func1())
 }
 
-function twoValues() {
+function twoValues(str, num, func) {
+  return func(str,num);
 }
 
-function twoValuesRTL() {
+function twoValuesRTL(str, num, func) {
+
 }
 
 
