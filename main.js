@@ -38,7 +38,7 @@ function twoValues(str, num, func) {
 }
 
 function twoValuesRTL(str, num, func) {
-
+  return func(num,str)
 }
 
 
